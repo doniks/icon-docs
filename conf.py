@@ -181,4 +181,4 @@ epub_exclude_files = ['search.html']
 
 github_doc_root = ''
 def setup(app):
-    app.add_stylesheet('css/ubports.css')
+    app.add_css_file('css/ubports.css')
